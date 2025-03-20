@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: black;
+    color: yellow;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.countdown {
+    font-size: 2rem;
+    margin-top: 20vh;
+    text-shadow: 2px 2px 10px rgba(255, 255, 0, 0.8);
+}
+
+.scroll-text {
+    position: absolute;
+    bottom: -200px;
+    width: 100%;
+    font-size: 1.5rem;
+    animation: scrollUp 15s linear infinite;
+}
+
+@keyframes scrollUp {
+    from {
+        bottom: -200px;
+    }
+    to {
+        bottom: 100vh;
+    }
+}
